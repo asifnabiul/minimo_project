@@ -1,0 +1,266 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+body{
+
+	margin:0;
+	padding:0;
+    font-family: 'Playfair Display', serif;
+	color: #626262;
+	margin-right: 1px;
+	    margin-bottom: 0px;
+}
+
+/*header start*/
+#header{
+	/*border: 1px solid red;*/
+	padding: 30px 0;
+	
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+	overflow: hidden;
+	
+}
+.logo{
+	width: 15%;
+	float:left;
+	/*border: 1px solid; */
+	margin-top: -10px
+	
+	
+}
+.logo h2{
+
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+	font-weight:400px; 
+	color: black;
+	letter-spacing: 5px;
+
+}
+.menu{
+	width:70%; 
+	float:right;
+	/*border: 1px solid;*/
+
+	
+	
+}
+.menu ul{
+	list-style: none;
+    float: right;
+
+}
+.menu ul li{
+	
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #626262;
+	padding:0 60px;
+	display: block;
+	font-size: 14px;
+	transition: .5s;
+
+
+}
+.menu ul li a:hover{
+	
+	font-size: 150%;
+	color: black;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+}
+/*header end*/
+
+/*banner start*/
+#banner{
+
+
+}
+.banner_img{}
+.banner_img img{
+	width:100%;
+}
+
+/*banner end*/
+
+/*gateway start*/
+#gateway{
+	border: 1px solid;
+	padding: 80px 0 100px;
+}
+.wrapper2{
+	width: 80%;
+    margin: 0 auto;
+    padding: 65px;
+}
+.gcont{
+
+}
+.gcont h1{
+
+}
+.pd {
+
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+}
+.txt{
+
+	margin-bottom: 35px;
+    margin-top: 37px;
+
+}
+.txt p{
+
+}
+.comment{
+
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	;
+}
+
+
+/*gateway end*/
+
+/*blog start*/
+
+#blog{}
+.wrapper3{
+
+	width: 80%;
+    margin: 0 auto;
+    /*border: 1px solid;*/
+}
+.festival{
+
+	width: 47%;
+    /*border: 1px solid;*/
+    float: left;
+    margin-bottom: 50px
+}
+.festival:nth-child(even){
+	/*background-color: blue;*/
+	    margin-left: 56.262px;
+}
+.festpic{
+
+}
+.festpic img{
+	width: 100%;
+}
+.festh{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	margin-top: 25px;
+	
+}
+.festh p{}
+.festxt{}
+.festxt h1{}
+.festp{}
+.festp p{}
+
+
+
+/*blog end*/
+
+/*newstellet*/
+#newsteller{}
+.nsi{}
+.nsi img{
+
+	    width: 100%;
+    margin-bottom: 85px;
+}
+/*newstellet*/
+
+/*button*/
+#load{}
+.btn {
+
+	margin:0 auto;
+	width:30%;s
+	border: 1px solid;
+	text-align: center;
+}
+.btn button{
+
+	    width: 165px;
+    height: 60px;
+    background: none;
+    border: none;
+    border: 1px solid #626262;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 800px;
+    transition: 0.5s;
+}
+.btn button:hover{
+
+	border: 1px solid #000000;
+	background-color: #626262;
+	color: white;
+}
+footer{
+	background-color: #f0f0f0;
+	padding: 30px 0;
+
+}
+
+.terms{
+	width: 30%;
+	/*border:1px solid ;*/
+	float: left;
+}
+.terms ul{
+
+}
+.terms ul li{
+	list-style: none;
+	float: left;
+}
+.terms ul li a{
+	padding: 0 10px;
+	text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 12px;
+    display: block;
+}
+
+.icons{
+	width: 30%;
+	/*border:1px solid ;*/
+	float: right;
+    margin-right: -125px; 
+
+}
+.icons ul{}
+.icons ul li{
+	list-style: none;
+	float:left;
+}
+.icons ul li a{
+	padding: 0 10px;
+	text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 12px;
+    display: block;
+
+}
+/*button*/
